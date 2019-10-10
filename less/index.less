@@ -1,5 +1,5 @@
 // Is this working?
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -13,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -54,6 +54,176 @@ table {
 }
 
 html, body {
+    font-size: 40px;
+    font-family: 'Hind', sans-serif;
     height: 100%;
 }
+/*my top code starts here*/
+
+.container-resume {
+width: 100%;
+padding: 40px;
+margin: 0 auto;
+
+}
+
+
+.top-content {
+    padding: 40px;
+    margin: 0 auto;
+    border: 1px solid black;
+    nav {
+        padding: 20px;
+        margin: 0 auto;
+        border: 2px solid red;
+        .logo{
+            margin: 10px;
+            width: 95px;
+            padding: 20px;
+            border: solid black;
+        }
+        .navigation-a {
+            text-align: center;
+            background-color: yellow;
+
+            a {
+                color: hotpink;
+            }
+        }
+    }
+
+    header{
+        display: flex;
+        padding: ;
+        margin: 40px;
+        background-color: plum;
+        .header-img {
+            width: 50%;
+            .header-comp {
+                width: 100%;
+            }
+        }
+        .h1-headline {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 20px;
+            margin: 40px;
+            background-color: seagreen;
+            h1 {
+                color: magenta;
+            }
+            p {
+                display: flex;
+                justify-content: flex-start;
+                color: blue;
+            }
+            button {
+                padding: 20px;
+                border: 2px solid black;
+
+            }
+        }
+    }
+
+}
+
+
+
+.middle-content {
+
+    padding: 8%;
+    margin: 0 auto;
+    background-color: brown;
+
+    .col1-learned{
+        display: flex;
+        justify-content: flex-start;
+        padding: 5%;
+        margin: 7%;
+        background-color: aqua;
+        .computer-img{
+            width: 60%;
+        }
+        h2{
+            color: rgb(60, 11, 116);
+        }
+        p {
+            padding: 20px;
+            margin: 2%;
+            background-color: pink;
+        }
+        .col2-stuff {
+            padding: 20px;
+            margin: 20px;
+            background-color: yellowgreen;
+            .stuff-i-can-do{
+                background-color: purple;
+                ul {
+                    font: bold;
+                    color: aliceblue;
+                    li {
+
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+
+
+                        }
+
+
+    .bottom-content {
+        margin: 0 auto;
+        padding:    0px 40px 0px 40px;
+
+        background-color: crimson;
+        .work-history{
+            background-color: springgreen;
+            .col1-work{
+                background-color: antiquewhite;
+
+                table {
+                 font-family: arial, sans-serif;
+                 border-collapse: collapse;
+                width: 100%;
+                td, th {
+                background-color: cornflowerblue;
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                tr:nth-child(even) {
+                background-color: #dddddd;
+                }
+      }
+        }
+      tr {
+      background-color: orange;
+     td {
+     color: orangered;
+                        }
+                    }
+                }
+            }
+        }
+    footer {
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        background-color: red;
+    }
+
+/*table styled here*/
+
+.container-resume {
+width: 100%;
+padding: 20px;
+margin: 0 auto;
+
+}
+
+
+
 
